@@ -1,0 +1,44 @@
+node_modules/
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local credentials and key material
+*.pem
+*.key
+*.ppk
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.mnemonic
+*.secret
+*.secrets
+*.credentials
+*wallet*secret*
+*wallet*key*
+**/credentials.*
+**/secrets.*
+**/*deployment*credentials*
+
+# Hardhat files
+/cache/
+/artifacts/
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage/
+/coverage.json
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
